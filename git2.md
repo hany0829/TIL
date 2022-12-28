@@ -1,13 +1,14 @@
 
 ># 12/27 **복습** 
-    git 사용순서  git init - git status - git add 파일명 - git status - git commit -m '' 
+    git 사용순서
+    git init - git status - git add 파일명 - git status - git commit -m '' 
 
-    커밋해쉬값 : 고유한 번호
-    head - master 브랜치 : 나의 위치
+    - 커밋해쉬값 : 고유한 번호
+    - head - master 브랜치 : 나의 위치
 
-    .git 폴더를 지워도 된다? X
-    폴더 이름 바꿔도 된다? O
-    다른곳으로 폴더로 이동시켜도 된다? `△` : 다른폴더에 git 중첩되면 안됨
+    - .git 폴더를 지워도 된다? X
+    - 폴더 이름 바꿔도 된다? O
+    - 다른곳으로 폴더로 이동시켜도 된다? △ : 다른 폴더에 git 중첩 되면 안되기 떄문에이다.
 
 ># 12/28 **학습 목표**
 
@@ -42,9 +43,11 @@ ___
 - ~~git clone 한 다음에 init 할 필요X~~
 
 - 충돌하면 GitHub이랑 비교해서 원격저장소의 커밋을 pull 해서 다시 push 하면 병합됩니다.
+- VScode에서 파일옆에 의미하는 뜻
 
-- u : untracted
-- m : modified
+    u : untracted
+
+    m : modified
 
 - .ignore : git으로 관리하지 않을 파일들을 미리 지정해서 헷갈리지 않게 해줍니다. `.ignore 자체가 파일`입니다.
 →[참조](https://www.toptal.com/developers/gitignore/)
@@ -55,16 +58,16 @@ ___
 >## **명령어 정리**
 <br>
 
-git clone <url> : 원격 저장소 복제
+- git clone <url> : 원격 저장소 복제
 
-git remote -v : 원격저장소 정보 확인
+- git remote -v : 원격저장소 정보 확인
 
-git remote add <원격저장소> <url> : 원격저장소 추가(일반적으로 origin)
+- git remote add <원격저장소> <url> : 원격저장소 추가(일반적으로 origin)
 
-git remote rm <원격저장소> : 원격저장소 삭제
+- git remote rm <원격저장소> : 원격저장소 삭제
 
-git push <원격저장소> <브랜치> : 원격저장소에 push
+- git push <원격저장소> <브랜치> : 원격저장소에 push
 
-git pull <원격저장소> <브랜치> : 원격저장소로부터 pull
+- `git pull <원격저장소> <브랜치> : 원격저장소로부터 pull
 
 
