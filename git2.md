@@ -1,7 +1,7 @@
 
 ># 12/27 **복습** 
     git 사용순서
-    git init - git status - git add 파일명 - git status - git commit -m '' 
+    git init - git status - git add 파일명 - git status - git commit -m ''
 
     - 커밋해쉬값 : 고유한 번호
     - head - master 브랜치 : 나의 위치
@@ -68,6 +68,6 @@ ___
 
 - git push <원격저장소> <브랜치> : 원격저장소에 push
 
-- `git pull <원격저장소> <브랜치> : 원격저장소로부터 pull
+- git pull <원격저장소> <브랜치> : 원격저장소로부터 pull
 
 
