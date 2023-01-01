@@ -12,4 +12,4 @@ working tree clearn nothing to commit → 1통 2통 비어있음
 
 
 git config --global user.email "hany8092@naver.com"    
-  git config --global user.name "hany0829"
+git config --global user.name "hany0829"
